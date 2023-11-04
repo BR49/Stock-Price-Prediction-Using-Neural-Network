@@ -1,38 +1,6 @@
-  ----------------------- ----------------------- -----------------------
+# Analyzing Stock Price Using Artificial Neural Networks
 
-  ----------------------- ----------------------- -----------------------
-
-  ----------------------- ----------------------- -----------------------
-
-  ----------------------- ----------------------- -----------------------
-
-  ----------------------- ----------------------- -----------------------
-
-  ----------------------- ----------------------- -----------------------
-
-  ----------------------- ----------------------- -----------------------
-
-  ----------------------- ----------------------- -----------------------
-
-  ----------------------- ----------------------- -----------------------
-
-  ----------------------- ----------------------- -----------------------
-
-  ----------------------- ----------------------- -----------------------
-
-  ----------------------- ----------------------- -----------------------
-
-  ----------------------- ----------------------- -----------------------
-
-  ----------------------- ----------------------- -----------------------
-
-  ----------------------- ----------------------- -----------------------
-
-  ----------------------- ----------------------- -----------------------
-
-> Analyzing Stock Price Using Artificial Neural Networks
->
-> **CHAPTER 1**
+ **CHAPTER 1**
 
 **INTRODUCTION**
 
@@ -72,12 +40,7 @@
 > including foreign and domestic economies, trade agreements, wars,
 > seasons, and even day of the week.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 1                            |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > **1.1Problem Statement**
 >
@@ -88,13 +51,13 @@
 > exceptionally dreary and incomprehensible occupation for a solitary
 > individual. So we present our stock price prediction system.
 >
-> **1.2 Project description:**\
+>  **1.2 Project description:**\
 > **1.2.1 Objective:**\
 > The main objective of the existing system is to overcome the
 > disadvantages of the existing system and build a portal for buyer and
 > seller to predict stock price.
 >
-> **1.2.2 Purpose:**
+>  **1.2.2 Purpose:**
 >
 > The purpose of this project is to create application to keep a track
 > on stock market system and keep a track of the prediction of the
@@ -106,8 +69,8 @@
 > predicting the price of the stock based on the given data to help the
 > buyers and sellers.
 >
-> **1.3 Existing and Proposed System**\
-> **1.3.1Existing System**
+>  **1.3 Existing and Proposed System**\
+>  **1.3.1Existing System**
 >
 > In the existing system the user can't predict the price of the stocks
 > manually. A stock market, equity market or share market is the
@@ -151,20 +114,15 @@
 > include securities listed on a public as well as stock that is only
 > traded privately. It is not easy to predict the price of
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 2                            |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
-> **Disadvantages**:
+ **Disadvantages**:
 >
 > •Can't predict the stock price\
 > •Performance is low\
 > •Time consuming
 >
-> **1.3.2 Proposed System**
+>  **1.3.2 Proposed System**
 >
 > This project is developed for stock market analysis and prediction of
 > stock price. Stocks are categorized in various ways. One way is by the
@@ -191,12 +149,7 @@
 
 **Fig 1.1: Proposed System Architecture**
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 3                            |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > **Advantages**:
 >
@@ -204,13 +157,8 @@
 > •Performance is increased\
 > •Time consumption is reduced
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 4                            |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
->
+
 > **CHAPTER 2**
 
 **LITERATURE SURVEY**
@@ -251,12 +199,8 @@
 > predict stock values. Factors considered are open, close, low, high
 > and volume.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 5                            |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
+
 >
 > 2\. Stock Market Prediction Analysis by Incorporating Social and News
 > Opinion and Sentiment Authors:
@@ -298,12 +242,9 @@
 >
 > Year : 20
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 6                            |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
+
+
 >
 > Findings
 >
@@ -345,12 +286,6 @@
 > the new system are not worth the cost, in which case the project will
 > be terminated.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 7                            |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
-
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > Feasibility study is necessary to determine whether the proposed
 > system is feasible considering the technical, operational and economic
@@ -396,12 +331,7 @@
 > user-friendly approach. It provides graphical user interfaces to the
 > user, so that user can easily interact with the system. Our system
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 8                            |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > Stock Price Prediction's UI is very user-friendly that user doesn't
 > need knowledge about Python, HTML, CSS and Flask. The application is
@@ -423,12 +353,7 @@
 >
 > 25 days -- Testing and deployment
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 9                            |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > **CHAPTER 3**\
 > **SOFTWARE REQUIREMENT SPECIFICATION**
@@ -469,12 +394,7 @@
 > signified as it makes colossal commitment to the general development
 > plan process.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 10                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > Spiral model is one of the most important Software Development Life
 > Cycle models, which provides support for Risk Handling. In its
@@ -496,12 +416,7 @@ height="5.229166666666667in"}
 
 **Fig 3.1:** Spiral Model
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 11                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > Each phase of Spiral Model is divided into four quadrants as shown in
 > the above figure. The functions of these four quadrants are discussed
@@ -546,12 +461,7 @@ height="5.229166666666667in"}
 > resolved through prototyping. Thus, this model is much more flexible
 > compared to other PDLC models.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 12                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > **Why Spiral Model is called Meta Model?**
 >
@@ -608,12 +518,7 @@ height="5.229166666666667in"}
 > Difficulty in time management: As the number of phases is unknown at
 > the start of the project, so time estimation is very difficult.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 13                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > **3.1 Users**\
 > Type of users:\
@@ -647,12 +552,7 @@ height="5.229166666666667in"}
 > In the final step the data acquired from the data cleansing will be
 > compared with the trained data.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 14                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > **Prediction of result**
 >
@@ -694,12 +594,7 @@ height="5.229166666666667in"}
 > The interface should be intuitive and easily navigable and user
 > friendly.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 15                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > **Integrity:**\
 > The software does not store any cache data or doesn't use system
@@ -748,12 +643,7 @@ height="5.229166666666667in"}
 > and functional programming. Python is often described as a \"batteries
 > included\" language due to its comprehensive standard library.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 16                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > Python was conceived in the late 1980s as a successor to the ABC
 > language. Python 2.0, released in 2000, introduced features like list
@@ -811,17 +701,7 @@ height="5.229166666666667in"}
 |       |       | matri | unded |       |       |       |       | ining |
 |       |       | x-sig |       |       |       |       |       |       |
 |       |       | was   |       |       |       |       |       |       |
-+=======+=======+=======+=======+=======+=======+=======+=======+=======+
-| >     |       |       |       |       |       |       |       | >     |
-|  Dept |       |       |       |       |       |       |       |  Page |
-| > of  |       |       |       |       |       |       |       | > 17  |
-| >     |       |       |       |       |       |       |       |       |
-| CS&E, |       |       |       |       |       |       |       |       |
-| >     |       |       |       |       |       |       |       |       |
-|  VVCE |       |       |       |       |       |       |       |       |
-+-------+-------+-------+-------+-------+-------+-------+-------+-------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > ancomputing package; among its members was Python designer and
 > maintainer who extended(in particular the indexing syntax) to easier.
@@ -875,7 +755,6 @@ include and
 | > co  |       |       |       |       |       |       |       |       |
 | ntent |       |       |       |       |       |       |       |       |
 +=======+=======+=======+=======+=======+=======+=======+=======+=======+
-+-------+-------+-------+-------+-------+-------+-------+-------+-------+
 
 > proprie andher new elements, such as \<section\>, \<header\> and
 > \<nav\>, ared tich thecontent of documents. Nhave been introduced for
@@ -943,12 +822,7 @@ include and
 > style rule applies if more than one rule matches a particular element.
 > This cascading priority scheme is predictable.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 19                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > The CSS specifications are maintained by the(W3C).
 
@@ -1009,12 +883,7 @@ more data tablesrelahese relations help structure
 the data. SQL is a language programmers use to create, modify and
 extract data from the
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 20                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > relational database, as well as control user access to the database.
 > In addition to relational databases and SQL, an RDBMS like MySQL works
@@ -1119,24 +988,14 @@ MySused by many database-driven wel
 > very, very good\". It has also been tested to be a \"fast, stable and
 > true multi-user, multi-threaded SQL database server\".
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 21                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 
 ![](vertopal_575bbe60f8634e379d1157864ac5eb73/media/image3.png){width="3.6055555555555556in"
 height="3.9069444444444446in"}
 
 > **Fig 3.2:** Architecture of MYSQL Server
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 22                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > **CHAPTER 4**
 
@@ -1183,12 +1042,7 @@ height="3.9069444444444446in"}
 > •More secured architecture since the client cannot access the database
 > directly.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 23                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > **4.2 Three-Tier Architecture**
 >
@@ -1221,12 +1075,7 @@ height="2.0569444444444445in"}
 
 **Fig 4.1:** Three tier architecture
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 24                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > **4.2.1 Presentation tier**\
 > The presentation tier is the front end layer in the 3-tier system and
@@ -1270,12 +1119,7 @@ height="2.0569444444444445in"}
 > separating out the different layers you can scale each independently
 > depending on the need at any given time. For
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 25                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > example, if you are receiving many web requests but not many requests
 > which affect your application layer, you can scale your web servers
@@ -1316,12 +1160,7 @@ height="2.0569444444444445in"}
 > •Invest amount/or budget estimation\
 > •Prediction based on distribution /or prediction based on estimation
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 26                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > **CHAPTER 5**
 
@@ -1374,8 +1213,7 @@ height="2.0569444444444445in"}
 |                       | > automated systems   |                       |
 |                       | > requirements        |                       |
 +-----------------------+-----------------------+-----------------------+
-| > Dept of CS&E, VVCE  |                       | Page 27               |
-+-----------------------+-----------------------+-----------------------+
+
 
 ![](vertopal_575bbe60f8634e379d1157864ac5eb73/media/image5.png){width="5.097222222222222in"
 height="2.6944444444444446in"}![](vertopal_575bbe60f8634e379d1157864ac5eb73/media/image6.png){width="6.208333333333333in"
@@ -1425,10 +1263,6 @@ Prediction
 > user, like registering and logging to the application. After login
 > loading the
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 28                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
 ![](vertopal_575bbe60f8634e379d1157864ac5eb73/media/image7.png){width="3.5416666666666665in"
 height="3.5555555555555554in"}
@@ -1475,12 +1309,7 @@ Logout
 
 **Fig 5.3**: Use case diagram for User
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 29                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > Above diagram represents the user use case diagram of the Stock Price
 > Prediction. This diagram indicates the use cases or functionalities of
@@ -1514,12 +1343,7 @@ Logout
 > requirements expressed as use cases to the next and more formal level
 > of refinement.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 30                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > ![](vertopal_575bbe60f8634e379d1157864ac5eb73/media/image8.png){width="6.268054461942257in"
 > height="4.348611111111111in"}
@@ -1540,12 +1364,7 @@ Logout
 > flow of control. This diagram symbolizes the goings-on taking place in
 > the project. There are different accomplishments for member.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 31                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > **Basic Notations**
 >
@@ -1579,10 +1398,7 @@ Logout
 > Workflow is depicted with an arrow. It shows the direction of the
 > workflow in the activity diagram.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 32                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
+
 
 ![](vertopal_575bbe60f8634e379d1157864ac5eb73/media/image13.png){width="0.2708333333333333in"
 height="0.23958442694663168in"}![](vertopal_575bbe60f8634e379d1157864ac5eb73/media/image14.png){width="1.4222222222222223in"
@@ -1595,7 +1411,7 @@ height="0.49120406824146984in"}![](vertopal_575bbe60f8634e379d1157864ac5eb73/med
 height="0.49120406824146984in"}![](vertopal_575bbe60f8634e379d1157864ac5eb73/media/image21.png){width="2.0in"
 height="6.916666666666667in"}
 
-> Analyzing Stock Price Using Artificial Neural Networks
+
 >
 > New User\
 > No Yes\
@@ -1624,15 +1440,10 @@ View Prediction
 > get the prediction from the system he can view the output in the
 > visualizer.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 33                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
 ![](vertopal_575bbe60f8634e379d1157864ac5eb73/media/image22.png){width="2.8472222222222223in"
 height="7.263889982502187in"}
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > **5.5 Flowchart**
 
@@ -1656,12 +1467,7 @@ Stop
 
 **Fig 5.6: Flowchart**
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 34                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > **5.6 Code Snippets**
 >
@@ -1696,12 +1502,7 @@ Stop
 >
 > return (decision_boundary, prediction, test_score)
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 35                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > #LSTM\
 > def LSTM_model(dates, prices, test_date, df):\
@@ -1728,12 +1529,7 @@ Stop
 > mainTestPredict = model.predict(X_test)\
 > testPredict = model.predict(testX)
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 36                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > **CHAPTER 6**
 
@@ -1777,12 +1573,7 @@ Stop
 > phase-by-phase. This reduces the risk of uncertainty of proposed
 > system.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 37                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > Each program is tested individually at the time of development using
 > the data and has verified that this program linked together in the way
@@ -1828,12 +1619,7 @@ Stop
 > Different regression models differ based on -- the kind of
 > relationship between dependent and
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 38                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 
 independent variables, they are considering and the number of
 independent variables being
@@ -1870,12 +1656,7 @@ independent variables being
 > takes the prediction from each tree and based on the majority votes of
 > predictions, and it predicts the final output.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 39                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 
 ![](vertopal_575bbe60f8634e379d1157864ac5eb73/media/image23.png){width="5.486111111111111in"
 height="3.3055555555555554in"}
@@ -1904,12 +1685,7 @@ height="3.3055555555555554in"}
 > example, LSTM is applicable to tasks such as unsegmented, connectedand
 > anomaly detection in network traffic or IDSs (in
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 40                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > A common LSTM unit is composed of a cell, an input gate, an output
 > gate and a forget gate. The cell remembers values over arbitrary time
@@ -1942,15 +1718,11 @@ is a that can be unrwith a strictly feedforward
 > as per the requirements and tested and this process is iterated till
 > the all the modules have been thoroughly implemented.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 41                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
+
 
 ![](vertopal_575bbe60f8634e379d1157864ac5eb73/media/image24.png){width="3.986111111111111in"
 height="2.486111111111111in"}
 
-> Analyzing Stock Price Using Artificial Neural Networks
 
 +-----------------------------------+-----------------------------------+
 | Load Data                         | > Calculation                     |
@@ -1976,13 +1748,7 @@ output, the system will greatly
 
 > help the user while buying or selling stocks.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 42                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
->
 > **CHAPTER 7**
 
 **SNAPSHOTS**
@@ -2001,12 +1767,6 @@ output, the system will greatly
 > The above figure shows the login page where user can enter his login
 > credentials and login.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 43                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
-
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > ![](vertopal_575bbe60f8634e379d1157864ac5eb73/media/image27.png){width="6.065277777777778in"
 > height="2.798611111111111in"}
@@ -2031,12 +1791,7 @@ TCS share collected from
 
 > NSE (National Stock Exchange).
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 44                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > ![](vertopal_575bbe60f8634e379d1157864ac5eb73/media/image29.png){width="6.383333333333334in"
 > height="3.5902777777777777in"}
@@ -2052,12 +1807,7 @@ TCS share collected from
 
 **Fig 7.6**: Random forest Analysis Graph of TCS share
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 45                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > The above figure shows the graphical representation of TCS (Tata
 > Consultancy Services) stock based on random forest algorithm and
@@ -2074,12 +1824,7 @@ height="3.6527777777777777in"}
 > considering the predicted result, the user/trader can enter a trade in
 > live market at suggested price in order to minimize losses.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 46                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 
 ![](vertopal_575bbe60f8634e379d1157864ac5eb73/media/image32.png){width="6.497221128608924in"
 height="3.6527777777777777in"}
@@ -2091,12 +1836,7 @@ height="3.6527777777777777in"}
 > historical data of the TCS share collected from NSE (National Stock
 > Exchange).
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 47                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 
 ![](vertopal_575bbe60f8634e379d1157864ac5eb73/media/image33.png){width="6.497221128608924in"
 height="3.6527777777777777in"}
@@ -2107,12 +1847,7 @@ height="3.6527777777777777in"}
 > predicted result, the user/trader can enter a trade in live market at
 > suggested price in order to minimize losses.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 48                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > **CHAPTER 8**
 
@@ -2141,12 +1876,7 @@ height="3.6527777777777777in"}
 > maintenance. Open questions in these stages must be investigated to
 > improve the knowledge about the field.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 49                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 
 **REFERENCES**
 
@@ -2195,12 +1925,7 @@ height="3.6527777777777777in"}
 > using regression and neural network models under non normal
 > conditions,\" INTERACT-2010, Chennai, 2010, pp. 59- 63.
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 50                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
-> Analyzing Stock Price Using Artificial Neural Networks
 >
 > **10.**Khare, Kaustubh, et al. \"Short term stock price prediction
 > using deep learning.\" 2017 2nd IEEE International Conference on
@@ -2252,7 +1977,4 @@ Market: Evidence from
 > **19.**Internet Source **20.**Internet Source\
 > **21.**Internet Source
 
-+-----------------------------------+-----------------------------------+
-| > Dept of CS&E, VVCE              | Page 51                           |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
+
