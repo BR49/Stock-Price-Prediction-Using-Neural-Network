@@ -1,0 +1,427 @@
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   <title>registerr</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="Medical Care a Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+
+<!-- flexslider-css-file -->
+<link rel="stylesheet" href="/static/assets/css/flexslider.css" type="text/css" media="screen" property="" />
+<!-- //flexslider-css-file -->
+
+<link rel="stylesheet" href="/static/assets/css/easy-responsive-tabs.css">
+
+<link href="/static/assets/css/font-awesome.css" rel="stylesheet">		<!-- font-awesome icons-css-file -->
+<link href="/static/assets/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">	<!-- bootstrap-css-file -->
+<link href="/static/assets/css/style.css" type="text/css" rel="stylesheet" media="all">	<!-- style-css-file -->
+
+
+<!-- gallery -->
+<link rel="stylesheet" href="/static/assets/css/lightbox.css"/>
+<!-- //gallery -->
+
+<!-- fonts -->
+ <link href="//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet"/>
+ <link href="//fonts.googleapis.com/css?family=Cinzel:400,700,900" rel="stylesheet"/>
+ <!-- //fonts -->
+ 
+<!-- Default-JavaScript-File -->
+	<script type="text/javascript" src="/static/assets/js/jquery-2.1.4.min.js"></script>
+<!-- //Default-JavaScript-File -->
+	
+<script src="/static/assets/js/bootstrap.js"></script>	<!-- //bootstrap-JavaScript-File -->
+		
+</head>
+<!-- Head -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<!-- banner -->
+	<div id="home" class="" style="height:760px;background-color:#dad9d9;"> 
+		<!-- header -->
+		<div class="header-w3layouts"> 
+			<!-- Navigation -->
+			<nav class="navbar navbar-default navbar-fixed-top" style="  background-color: rgb(22, 22, 22);;"> 
+				<div class="container">
+					<div class="navbar-header page-scroll">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+							<span class="sr-only">Call</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<img src="/static/assets/images/flogo.png" style="height:60px;width:60%;" />
+					</div> 
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse navbar-ex1-collapse">
+						<ul class="nav navbar-nav navbar-right cl-effect-15">
+							<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+							<li class="hidden"><a class="page-scroll" href="#page-top"></a>	</li>
+							<li><a id="homed" href="index">Home</a></li>
+							<li><a id="register"  href="register">Register</a></li>
+								<li><a id="login"   href="login">Login</a></li>
+							
+<script>
+	
+$("#homed").click(function(){
+  window.location='index.aspx';
+});
+
+$("#register").click(function(){
+  window.location='register.aspx';
+});
+</script>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+				<!-- /.container -->
+			</nav>  
+		</div>	
+		<!-- //header -->
+		<!--banner-->
+		<!--Slider-->
+        <form id="f1" runat="server">
+			<div class="" >
+				
+			   
+			    <div class="col-md-6" style="padding-top:80px;">
+                    <h1 style="text-align:center;font-weight:bolder;padding:20px 0px;">Welcome to Registration Form</h1>
+                        <div class="form-group" style="font-size:20px;padding-bottom:10px;">
+                               
+                                <input type="text" class="form-control" id="uname"  runat="server" placeholder="Enter User Name">
+                        </div>
+
+                    <div class="form-group" style="font-size:20px;padding-bottom:10px;">
+                            
+                                <input type="text" class="form-control" id="name"  runat="server"  placeholder="Enter Name">
+                        </div>
+
+                     <div class="form-group" style="font-size:20px;padding-bottom:10px;">
+                           
+                                <input type="password" class="form-control" id="pswd"  runat="server"  placeholder="Enter Password">
+                        </div>
+
+                     <div class="form-group" style="font-size:20px;padding-bottom:10px;">
+                         
+                                <input type="email" class="form-control" id="email"  runat="server"  placeholder="Enter Email">
+                        </div>
+
+                     <div class="form-group" style="font-size:20px;padding-bottom:10px;">
+                             
+                                <input type="number" class="form-control" id="phone"  runat="server"  placeholder="Enter Phone#">
+                        </div>
+                    
+                    
+                     <div class="form-group" style="font-size:20px;padding-bottom:10px;">
+                            
+                         <textarea class="form-control" id="addr" runat="server"  placeholder="Enter Address"></textarea>
+                        </div>
+
+                    
+
+                     <div class="form-group" style="font-size:20px;padding-bottom:10px;">
+                         
+						    
+						  <input type="button" id="btnregsubmit" runat="server" Class="btn btn-success"  value="submit" onclick="return Validator();"/>
+                        </div>
+
+                    
+  <script>
+     function Validator() {
+         debugger;
+         var flag = true;
+
+         var unamer = document.getElementById('uname').value;
+         var intRegexunamer = /^[A-Za-z0-9 ]+$/;
+         if (!intRegexunamer.test(unamer)) {
+             alert('Please enter a valid username.');
+             flag = false;
+             return flag;
+         }
+         else {
+             flag = true;
+         }
+
+         var namer = document.getElementById('name').value;
+         var intRegexnamer = /^[A-Za-z ]+$/;
+         if (!intRegexnamer.test(namer)) {
+             alert('Please enter a valid name.');
+             flag = false;
+             return flag;
+         }
+         else {
+             flag = true;
+         }
+
+
+         var phone = document.getElementById('phone').value;
+         var intRegex = /^(7|8|9)[0-9]{9}$/;
+         if (!intRegex.test(phone)) {
+             alert('Please enter a valid phone number.');
+             flag = false;
+             return flag;
+         }
+         else {
+             flag = true;
+         }
+
+         
+
+         var email = document.getElementById('email').value;
+         var emailReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+         if (!emailReg.test(email) || email == '') {
+             alert('Please enter a valid email id.');
+             flag = false;
+             return flag;
+         }
+         else {
+             flag = true;
+         }
+
+
+
+         var pswd = document.getElementById('pswd').value; 
+
+         var pswdPattern = /^[A-Za-z0-9]{5,8}$/;
+         if (!pswdPattern.test(pswd)) {
+             alert('Please enter 8 characters password.');
+             flag = false;
+             return flag;
+         }
+         else {
+             flag = true;
+         }
+
+
+
+         return flag;
+     }
+ </script>
+
+                   
+			    </div>
+				 <div class="col-md-6">
+                    <img src="/static/assets/images/reg.jpeg" style="height:600px;width:100%;padding-top:80px;" />
+
+			    </div>
+			</div>
+        </form>
+		<!--//banner-->
+		
+	</div>	
+	<!-- //banner --> 
+
+
+
+
+<!-- copyright -->
+<div class="copyright-agile" >
+	<p>&copy; <script>document.write(new Date().getFullYear());</script> Road Accident. All rights reserved </p>
+</div>
+<!-- //copyright -->
+
+
+
+<script src="/static/assets/js/easy-responsive-tabs.js"></script>
+<script>
+$(document).ready(function () {
+$('#horizontalTab').easyResponsiveTabs({
+type: 'default', //Types: default, vertical, accordion           
+width: 'auto', //auto or any width like 600px
+fit: true,   // 100% fit in a container
+closed: 'accordion', // Start closed if in accordion view
+activate: function(event) { // Callback function if tab is switched
+var $tab = $(this);
+var $info = $('#tabInfo');
+var $name = $('span', $info);
+$name.text($tab.text());
+$info.show();
+}
+});
+$('#verticalTab').easyResponsiveTabs({
+type: 'vertical',
+width: 'auto',
+fit: true
+});
+});
+</script>
+
+
+
+
+
+<!--banner Slider starts Here-->
+		<script src="/static/assets/js/responsiveslides.min.js"></script>
+							<script>
+								// You can also use "$(window).load(function() {"
+								$(function () {
+								  // Slideshow 4
+								  $("#slider3").responsiveSlides({
+									auto: true,
+									pager:true,
+									nav:false,
+									speed: 500,
+									namespace: "callbacks",
+									before: function () {
+									  $('.events').append("<li>before event fired.</li>");
+									},
+									after: function () {
+									  $('.events').append("<li>after event fired.</li>");
+									}
+								  });
+							
+								});
+							 </script>
+
+							<!--banner Slider starts Here-->
+							<!--start-date-piker-->
+							<link rel="stylesheet" href="/static/assets/css/jquery-ui.css" />
+									<script src="/static/assets/js/jquery-ui.js"></script>
+									<script>
+										$(function() {
+										$( "#datepicker" ).datepicker();
+										});
+									</script>
+							<!--/End-date-piker-->
+							
+<!-- js for smooth scrollings -->
+	<script src="/static/assets/js/SmoothScroll.min.js"></script>
+<!-- js for smooth scrollings -->
+
+<!-- flexisel -->
+	<script type="text/javascript" src="/static/assets/js/jquery.flexisel.js"></script>
+	<script type="text/javascript">
+		$(window).load(function() {
+			$("#flexiselDemo1").flexisel({
+				visibleItems: 3,
+				animationSpeed: 1000,
+				autoPlay: false,
+				autoPlaySpeed: 3000,    		
+				pauseOnHover: true,
+				enableResponsiveBreakpoints: true,
+				responsiveBreakpoints: { 
+					portrait: { 
+						changePoint:480,
+						visibleItems: 1
+					}, 
+					landscape: { 
+						changePoint:640,
+						visibleItems:2
+					},
+					tablet: { 
+						changePoint:768,
+						visibleItems: 3
+					}
+				}
+			});
+			
+		});
+	</script>
+<!-- //flexisel -->
+
+<!-- start-smooth-scrolling -->
+<script type="text/javascript" src="/static/assets/js/move-top.js"></script>
+<script type="text/javascript" src="/static/assets/js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smooth-scrolling -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+
+
+<!-- Scrolling Nav JavaScript --> 
+    <script src="/static/assets/js/scrolling-nav.js"></script>  
+<!-- //fixed-scroll-nav-js --> 
+
+
+
+
+<script src="/static/js/plots.js"></script>
+<script>
+function Validator() {
+	        debugger;	
+	        if (document.getElementById('uname').value =='' && document.getElementById('name').value =='' &&
+	            document.getElementById('pswd').value =='' && document.getElementById('email').value =='' &&
+                 document.getElementById('phone').value =='' && document.getElementById('addr').value =='')
+	        {
+	            alert('Please Fill All Fields');
+	        }
+	        var flag = true;
+
+	        var unamer = document.getElementById('uname').value;
+	        var intRegexunamer = /^[A-Za-z 0-9]+$/;
+	        if (!intRegexunamer.test(unamer)) {
+	            alert('Please enter a valid name.');
+	            flag = false;
+	            return flag;
+	        }
+	        else {
+	            flag = true;
+	        }
+
+	        var namer = document.getElementById('name').value;
+	        var intRegexnamer = /^[A-Za-z ]+$/;
+	        if (!intRegexnamer.test(namer)) {
+	            alert('Please enter a  name.');
+	            flag = false;
+	            return flag;
+	        }
+	        else {
+	            flag = true;
+	        }
+	        var email = document.getElementById('email').value;
+	        var emailReg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	        if (!emailReg.test(email) || email == '') {
+	            alert('Please enter a valid email id.');
+	            flag = false;
+	            return flag;
+	        }
+	        else {
+	            flag = true;
+	        }
+
+
+	        var phone = document.getElementById('phone').value;
+	        var intRegex = /^(7|8|9)[0-9]{9}$/;
+	        if (!intRegex.test(phone)) {
+	            alert('Please enter a valid phone number.');
+	            flag = false;
+	            return flag;
+	        }
+	        else {
+	            flag = true;
+	        }
+
+	        return flag;
+	    }
+
+</script>
+
+
+</body>
+</html>
+
